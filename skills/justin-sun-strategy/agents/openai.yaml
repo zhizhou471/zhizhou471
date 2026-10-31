@@ -1,0 +1,13 @@
+interface:
+  display_name: 孙宇晨思维工具
+  short_description: 从公开材料提炼机会搜索、AI协作、传播与行动方法，保留证据和边界
+  default_prompt: 使用 $justin-sun-strategy 分析这个机会，给出依据、反例和下一步验证。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

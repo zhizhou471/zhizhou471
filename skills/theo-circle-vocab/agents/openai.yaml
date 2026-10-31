@@ -1,0 +1,13 @@
+interface:
+  display_name: Theo 圈词整理
+  short_description: 识别阅读照片中的圈词并追加至可打印的 PDF 单词册
+  default_prompt: 使用 $theo-circle-vocab 整理照片中的圈词，并追加到我的 PDF 单词册。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
